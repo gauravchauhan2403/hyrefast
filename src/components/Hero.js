@@ -37,7 +37,7 @@ const Hero = () => {
         </div>
       </div>
       <div className='lg:absolute relative lg:w-[60%] sm:w-[100%] lg:z-50 lg:top-0 lg:right-0'>
-        <video src={Animation} playsInline autoPlay loop muted />
+        <video src={Animation} playsInline autoPlay loop muted type='video/mp4' />
       </div>
     </div>
     <img src={require('../assets/images/floor.jpg')}
