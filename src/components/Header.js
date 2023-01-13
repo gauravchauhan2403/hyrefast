@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 const Header = () => {
   const listStyle =
@@ -6,14 +6,14 @@ const Header = () => {
   const buttonStyle =
     "border-[2px] rounded-[90px] border-[#1A1D1F] px-[16px] py-[12px] font-bold text-[0.93rem] leading-4 text-[#272B30]";
   return (
-    <div className='header bg-[#F9F9F9] flex items-center justify-between px-[5rem] pt-[2rem] pb-[2rem]'>
+    <div className='header bg-[#F9F9F9] flex items-center justify-between px-[2rem] lg:px-[5rem] pt-[1rem] lg:pt-[2rem] pb-[1rem] lg:pb-[2rem]'>
       <img
         src={require('../assets/images/Group.png')}
         alt="logo"
-        className='logo w-[12rem] h-[2.875rem]'
+        className='logo w-[8rem] lg:w-[12rem] lg:h-[2.875rem]'
       />
-      <div className='menu flex'>
-        <ul className='flex justify-between'>
+      <div className='nav flex'>
+        <ul className='nav_list md:flex md:items-center z-[-1] md:z-auto md:static w-full absolute left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500'>
           <li className={listStyle}>Home</li>
           <li className={listStyle}>FAQs</li>
           <li className={listStyle}>Contact US</li>
