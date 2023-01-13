@@ -8,7 +8,7 @@ import Animation from '../assets/animation/final_3.mp4';
 const Hero = () => {
   return (
     <div>
-    <div className='border wrapper bg-[#FFFFFF] flex items-start flex-col justify-between pl-[2rem] lg:pl-[5rem] w-[100%] lg:h-[100%] relative'>
+    <div className='wrapper bg-[#FFFFFF] flex items-start flex-col justify-between pl-[2rem] lg:pl-[5rem] w-[100%] lg:h-[100%] relative'>
       {/* Left side */}
       <div className='headings flex flex-col items-start justify-center lg:h-[100%] font-bold leading-none py-[1rem] lg:py-[3rem] text-[2rem] lg:text-[3rem]'>
         <span>Hire Software</span>
@@ -36,7 +36,7 @@ const Hero = () => {
           </ul>
         </div>
       </div>
-      <div className='border lg:absolute relative lg:w-[60%] sm:w-[100%] lg:z-50 lg:top-0 lg:right-0'>
+      <div className='lg:absolute relative lg:w-[60%] sm:w-[100%] lg:z-50 lg:top-0 lg:right-0'>
         <video src={Animation} autoPlay loop muted />
       </div>
     </div>
