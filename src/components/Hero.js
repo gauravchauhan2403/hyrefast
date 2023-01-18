@@ -3,7 +3,8 @@ import ThreeUser from '../assets/icons/3User.svg';
 import AddUser from '../assets/icons/addUser.svg';
 import Document from '../assets/icons/Document.svg';
 import TimeCircle from '../assets/icons/timeCircle.svg';
-import Animation from '../assets/animation/final_3.mp4';
+import Animation from './Animation';
+// import Animation from '../assets/animation/final_3.mp4';
 
 const Hero = () => {
   return (
@@ -36,8 +37,9 @@ const Hero = () => {
           </ul>
         </div>
       </div>
-      <div className='lg:absolute relative lg:w-[60%] sm:w-[100%] lg:z-50 lg:top-0 lg:right-0'>
-        <video src={Animation} playsInline autoPlay loop muted type='video/mp4' />
+      <div className='container lg:absolute relative lg:w-[60%] sm:w-[100%] lg:z-50 lg:top-0 lg:right-0'>
+        <Animation />
+        {/* <video src={Animation} playsInline autoPlay loop muted type='video/mp4' /> */}
       </div>
     </div>
     <img src={require('../assets/images/floor.jpg')}

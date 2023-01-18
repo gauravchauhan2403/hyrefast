@@ -13,7 +13,7 @@ const Header = () => {
         className='logo w-[8rem] lg:w-[12rem] lg:h-[2.875rem]'
       />
       <div className='nav flex'>
-        <ul className='nav_list md:flex md:items-center z-[-1] md:z-auto md:static w-full absolute left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500'>
+        <ul className='nav_list md:flex md:items-center z-[-1] md:z-auto md:static absolute left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500'>
           <li className={listStyle}>Home</li>
           <li className={listStyle}>FAQs</li>
           <li className={listStyle}>Contact US</li>
