@@ -9,14 +9,14 @@ import Animation from './Animation';
 const Hero = () => {
   return (
     <div>
-    <div className='wrapper bg-[#FFFFFF] flex items-start flex-col justify-between pl-[2rem] lg:pl-[5rem] w-[100%] lg:h-[100%] relative'>
+    <div className='wrapper bg-[#FFFFFF] flex items-start flex-col justify-between pl-[2rem] lg:pl-[10rem] w-[100%] lg:h-[100%] relative'>
       {/* Left side */}
-      <div className='headings flex flex-col items-start justify-center lg:h-[100%] font-bold leading-none py-[1rem] lg:py-[3rem] text-[2rem] lg:text-[3rem]'>
+      <div className='headings flex flex-col items-start justify-center lg:h-[100%] font-bold leading-none py-[1rem] lg:py-[2rem] text-[1.8rem] lg:text-[2.8rem]'>
         <span>Hire Software</span>
         <span>Engineers of</span>
         <span className='text-[#2A85FF]'>Top Development</span>
         <span>Companies</span>
-        <div className='heroCard w-[320px] h-[87px] mt-[2.6rem] bg-[#F4F4F4] text-[#6F767E] text-[1rem] font-normal rounded-2xl leading-4 p-[.5rem]'>
+        <div className='heroCard w-[300px] h-[87px] mt-[2rem] bg-[#F4F4F4] text-[#6F767E] text-[.9rem] font-normal rounded-2xl leading-4 p-[.4rem]'>
           <ul className='flex flex-wrap'>
             <li className='wrapper flex items-center px-[.35rem] py-[.5rem]'>
               <img src={Document} alt='logo' className='' />
@@ -37,7 +37,7 @@ const Hero = () => {
           </ul>
         </div>
       </div>
-      <div className='container lg:absolute relative lg:w-[60%] sm:w-[100%] lg:z-50 lg:top-0 lg:right-0'>
+      <div className='lg:absolute relative lg:w-[60%] sm:w-[100%] lg:z-50 lg:top-0 lg:right-0'>
         <Animation />
         {/* <video src={Animation} playsInline autoPlay loop muted type='video/mp4' /> */}
       </div>

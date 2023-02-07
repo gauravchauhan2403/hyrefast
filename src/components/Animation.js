@@ -12,7 +12,7 @@ const Animation = () => {
   }
   return (
     <div>
-      <Lottie options={defaultOptions} height={'auto'} width={'auto'} />
+      <Lottie options={defaultOptions} isClickToPauseDisabled={true} height={550} width={'auto'} />
     </div>
   )
 }
