@@ -14,47 +14,47 @@ import Logo6 from '../assets/icons/logo6.svg'
 
 const HyreSecure = () => {
   return (
-    <div className='card bg-[#fff] flex flex-col items-start justify-between rounded-[64px] px-4 pt-[2rem] min-h-screen'>
-      <div className='md:flex items-start justify-between md:pb-[10rem]'>
-        <div className='relative mx-[3rem] md:mt-[6rem] md:px-[4rem]'>
+    <div className='card bg-[#fff] flex flex-col items-start justify-between rounded-[64px] px-4 pt-[1rem] min-h-screen'>
+      <div className='md:flex items-start justify-between md:pb-[6rem]'>
+        <div className='relative mx-[3rem] md:mt-[4rem] md:px-[4rem] w-1/2'>
           <img src={Authentic} alt='stamp' className='absolute z-10 top-20 right-4' />
           <img src={Image} alt='buildings' />
         </div>
-        <div className='flex flex-col mx-[1.6rem] md:p-[3rem] mt-[3rem]'>
-          <h5 className='text-[#45B36B] font-semibold text-sm md:text-xl uppercase'>
+        <div className='flex flex-col mx-[1.6rem] md:p-[3rem] mt-[2rem]'>
+          <h5 className='text-[#45B36B] font-semibold text-xs md:text-sm uppercase'>
           Your code, in your hands
           </h5>
-          <h1 className='text-[#23262F] text-2xl lg:text-5xl font-bold mt-[.2rem]'>
+          <h1 className='text-[#23262F] text-2xl lg:text-4xl font-bold mt-[.2rem]'>
             hyre_Secure
           </h1>
-          <p className='font-base font-normal md:mt-4 '>
+          <p className='font-base font-normal md:mt-2 '>
             We will take care of everything else
           </p>
-          <div className='mt-14 p-[1.25rem] flex items-start bg-[#F4F5F6] max-w-md rounded-2xl max'>
-            <img src={Tick} alt='right' className='w-8 h-8'></img>
-            <div className='flex flex-col flex-wrap px-[1.25rem]'>
-              <h4 className='font-semibold text-lg'>Pre_hired</h4>
-              <p className='text-base font-normal'>
+          <div className='mt-10 p-[1rem] flex items-start bg-[#F4F5F6] max-w-md rounded-2xl max w-4/5'>
+            <img src={Tick} alt='right' className='w-6 h-6'></img>
+            <div className='flex flex-col flex-wrap px-[1rem]'>
+              <h4 className='font-semibold text-base'>Pre_hired</h4>
+              <p className='text-sm font-normal'>
                 Our engineers are pre-hired, all you need to do is choose one.
                 0or as many as you like.
               </p>
             </div>
           </div>
-          <div className='mt-6 p-[1.25rem] flex items-start bg-[#F4F5F6] max-w-md rounded-2xl max'>
-            <img src={Credit} alt='right' className='w-8 h-8'></img>
-            <div className='flex flex-col flex-wrap px-[1.25rem]'>
-              <h4 className='font-semibold text-lg'>Verified</h4>
-              {/* <p className='text-base font-normal'>
+          <div className='mt-6 p-[1rem] flex items-start bg-[#F4F5F6] max-w-md rounded-2xl max w-4/5'>
+            <img src={Credit} alt='right' className='w-6 h-6'></img>
+            <div className='flex flex-col flex-wrap px-[1rem]'>
+              <h4 className='font-semibold text-base'>Verified</h4>
+              {/* <p className='text-sm font-normal'>
                 Our engineers are pre-hired, all you need to do is choose one.
                 0or as many as you like.
               </p> */}
             </div>
           </div>
-          <div className='mt-6 p-[1.25rem] flex items-start bg-[#F4F5F6] max-w-md rounded-2xl max'>
-            <img src={Wallet} alt='right' className='w-8 h-8'></img>
-            <div className='flex flex-col flex-wrap px-[1.25rem]'>
-              <h4 className='font-semibold text-lg'>Guaranteed replacement</h4>
-              {/* <p className='text-base font-normal'>
+          <div className='mt-6 p-[1rem] flex items-start bg-[#F4F5F6] max-w-md rounded-2xl max w-4/5'>
+            <img src={Wallet} alt='right' className='w-6 h-6'></img>
+            <div className='flex flex-col flex-wrap px-[1rem]'>
+              <h4 className='font-semibold text-base'>Guaranteed replacement</h4>
+              {/* <p className='text-sm font-normal'>
                 Our engineers are pre-hired, all you need to do is choose one.
                 0or as many as you like.
               </p> */}
@@ -62,14 +62,14 @@ const HyreSecure = () => {
           </div>
         </div>
       </div>
-        <div className='hyre_trust mt-[4rem] flex flex-col px-[2rem] md:px-[5rem] pb-[6rem]'>
-          <h5 className='text-[#45B36B] font-semibold text-sm md:text-xl uppercase'>
+        <div className='hyre_trust mt-[2rem] flex flex-col px-[2rem] md:px-[8rem] pb-[6rem]'>
+          <h5 className='text-[#45B36B] font-semibold text-sm md:text-sm uppercase'>
           Your code, in your hands
           </h5>
-          <h1 className='text-[#23262F] text-2xl lg:text-5xl font-bold mt-[.2em]'>
+          <h1 className='text-[#23262F] text-2xl lg:text-4xl font-bold mt-[.2em]'>
             hyre_Trust
           </h1>
-          <p className='text-[#6F767E] font-base text-lg md:text-2xl mt-4 '>
+          <p className='text-[#6F767E] font-base text-xs md:text-base mt-4 '>
             We have helped 50+ organizations scale in the last 6 months.
           </p>
           <div className='mt-6 flex flex-start justify-between flex-wrap'>

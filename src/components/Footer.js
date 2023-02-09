@@ -8,11 +8,11 @@ import Behance from '../assets/icons/behance.svg'
 
 const Footer = () => {
   return (
-    <div className='flex flex-col items-start bg-[#fff] rounded-3xl py-6 w-full'>
+    <div className='flex flex-col items-start bg-[#fff] rounded-3xl py-4 w-full'>
       <div className='md:flex items-start justify-between divide-x-2'>
         <div className='px-[2rem] md:px-[4rem] pt-[2rem] flex items-start md:justify-between'>
           <img src={require('../assets/images/Group.png')} alt='' className='h-8 w-30 md:h-10 md:w-45' />
-          <ul className='px-[2rem] md:px-[4rem] text-[#777E91] text-sm font-bold leading-9'>
+          <ul className='px-[2rem] md:px-[4rem] text-[#777E91] text-sm font-bold leading-8'>
             <li>Home</li>
             <li>ContactUs</li>
             <li>NDA</li>
@@ -22,14 +22,14 @@ const Footer = () => {
         </div>
         <div className='px-8 md:px-[4rem] pt-[2rem] flex flex-col text-[#23262F] leading-8'>
           <h4 className='font-bold text-sm uppercase'>Contact</h4>
-          <p className='flex flex-wrap md:mt-8'>43252 Borer Mountains Zackerychester</p>
+          <p className='flex flex-wrap md:mt-4'>43252 Borer Mountains Zackerychester</p>
           <p>Bahamas</p>
           <p className='pb-11'>732-528-4945</p>
         </div>
         <div className='px-8 md:px-[4rem] md:pt-[2rem] flex flex-col leading-8'>
           <h4 className='font-bold text-sm uppercase'>Newsletter</h4>
-          <p className='flex flex-wrap md:mt-8'>Subscribe our newsletter to get more free design course and resource.</p>
-          <div className='p-2 my-6 md:mx-2 flex items-center justify-between border rounded-full'>
+          <p className='flex flex-wrap md:mt-6'>Subscribe our newsletter to get more free design course and resource.</p>
+          <div className='p-2 my-5 md:mx-2 flex items-center justify-between border rounded-full'>
             <input type='text' placeholder='Enter your email' className='md:mx-4 px-2 bg-[#]' />
             <div className='px-3 py-4 rounded-full bg-[#FF592C]'><img src={Arrow} alt='' /></div>
           </div>
