@@ -59,7 +59,7 @@ const Faqs = () => {
             <li className='flex flex-col text-[#33383F] pt-3 w-full'>
               <div className='flex justify-between hover:text-[#1A1D1F] text-[#33383F] text-sm font-semibold border-b-[2px] py-2'>
                 <h4>How to upgrade to Pro account?</h4>
-                <button className=' border px-2 rounded-full'>+</button>
+                {/* <button className=' border px-2 rounded-full'>{selected === i ? '+' : '-'}</button> */}
               </div>
               <p className='flex flex-wrap pt-3 text-[#6F767E] text-base font-medium'>
                 Enjoy instant access to our vast library of 5,121 premium products and all 

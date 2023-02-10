@@ -6,14 +6,14 @@ import Credit from '../assets/icons/credit.svg'
 import Wallet from '../assets/icons/wallet.svg'
 
 const HyreTime = () => {
-  const [display, setDisplay] = useState('hidden')
+  const [display, setDisplay] = useState(null)
 
-  const handleClick = () => {
-    if (display === 'block') {
-      setDisplay('hidden')
+  const toggle = (i) => {
+    if (display === i) {
+      setDisplay(null)
     }
     else 
-      setDisplay('block')
+      setDisplay(i)
   }
 
   return (
@@ -26,15 +26,15 @@ const HyreTime = () => {
           hyre_Time
         </h1>
 
-        {Datas.map((Data) => (
+        {Datas.map((Data, i) => (
         <div className='mt-6 mr-6 p-[.8rem] flex items-start bg-[#fff] hover:bg-[#C5DEFF] rounded-2xl w-3/5'
-            onClick={handleClick}
+            onClick={() => toggle(i)}
             key={Data.id}
         >
           <img src={Data.image} alt='right' className='w-6 h-6'></img>
           <div className='flex flex-col flex-wrap px-[1rem]'>
               <h4 className='font-semibold text-base'>{Data.heading}</h4>
-              <p className={`text-sm font-normal transition ease-linear delay-150 duration-300 ${display} overflow-hidden`}>
+              <p className={`text-sm font-normal transition ease-linear delay-150 duration-300 ${display ===i ? 'block':'hidden'} overflow-hidden`}>
                 {Data.content}
               </p>
           </div>

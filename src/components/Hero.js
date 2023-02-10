@@ -11,7 +11,7 @@ const Hero = () => {
     <div>
     <div className='wrapper bg-[#FFFFFF] flex items-start flex-col justify-between pl-[2rem] lg:pl-[10rem] w-[100%] lg:h-[100%] relative'>
       {/* Left side */}
-      <div className='headings flex flex-col items-start justify-center lg:h-[100%] font-bold leading-none py-[1rem] lg:py-[2rem] text-[1.8rem] lg:text-[2.8rem]'>
+      <div className='headings flex flex-col items-start justify-center lg:h-[100%] font-bold leading-none py-[1rem] lg:py-[2rem] text-[1.4rem] lg:text-[2.8rem]'>
         <span>Hire Software</span>
         <span>Engineers of</span>
         <span className='text-[#2A85FF]'>Top Development</span>
