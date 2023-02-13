@@ -4,9 +4,9 @@ const Header = () => {
   const listStyle =
     "text-[#272B30] font-bold text-[1rem] leading-4 px-[1.5rem] cursor-pointer";
   const buttonStyle =
-    "border-[2px] rounded-[90px] border-[#1A1D1F] px-[16px] py-[12px] font-bold text-[0.93rem] leading-4 text-[#272B30]";
+    "border-[2px] rounded-[90px] border-[#1A1D1F] px-[10px] py-[10px] font-extrabold text-[0.93rem] leading-4 text-[#272B30]";
   return (
-    <div className='header bg-[#F9F9F9] flex items-center justify-between px-[2rem] lg:px-[10rem] pt-[.6rem] lg:pt-[1rem] pb-[.6rem] lg:pb-[1rem]'>
+    <div className='header bg-[#F9F9F9] flex items-center justify-between px-[2rem] lg:px-[10rem] pt-[.6rem] lg:pt-[1rem] pb-[1rem] lg:pb-[1.6rem]'>
       <img
         src={require('../assets/images/Group.png')}
         alt="logo"

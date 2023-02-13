@@ -9,9 +9,9 @@ import Animation from './Animation';
 const Hero = () => {
   return (
     <div>
-    <div className='wrapper bg-[#FFFFFF] flex items-start flex-col justify-between pl-[2rem] lg:pl-[10rem] w-[100%] lg:h-[100%] relative'>
+    <div className='wrapper bg-[#FFFFFF] flex items-start flex-col justify-between pl-[3rem] lg:pl-[11rem] w-[100%] lg:min-h-[100%] relative'>
       {/* Left side */}
-      <div className='headings flex flex-col items-start justify-center lg:h-[100%] font-bold leading-none py-[1rem] lg:py-[2rem] text-[1.4rem] lg:text-[2.8rem]'>
+      <div className='headings flex flex-col items-start justify-center lg:h-[100%] font-bold leading-none py-[1rem] lg:py-[4rem] text-[2rem] lg:text-[3rem]'>
         <span>Hire Software</span>
         <span>Engineers of</span>
         <span className='text-[#2A85FF]'>Top Development</span>
@@ -37,7 +37,7 @@ const Hero = () => {
           </ul>
         </div>
       </div>
-      <div className='lg:absolute relative lg:w-[60%] sm:w-[100%] lg:z-50 lg:top-0 lg:right-0'>
+      <div className='border lg:absolute relative lg:w-[60%] sm:w-[100%] lg:z-50 lg:top-0 lg:right-0'>
         <Animation />
         {/* <video src={Animation} playsInline autoPlay loop muted type='video/mp4' /> */}
       </div>

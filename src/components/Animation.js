@@ -7,12 +7,11 @@ const Animation = () => {
     loop: true,
     autoplay: true,
     animationData: animationData,
-    rendererSettings: { 'svg': true
-    }
+    rendererSettings: { 'svg': true }
   }
   return (
     <div>
-      <Lottie options={defaultOptions} isClickToPauseDisabled={true} height={550} width={'auto'} />
+      <Lottie options={defaultOptions} isClickToPauseDisabled={true} height={650} width={'auto'} />
     </div>
   )
 }

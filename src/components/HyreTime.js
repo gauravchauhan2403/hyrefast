@@ -27,7 +27,7 @@ const HyreTime = () => {
         </h1>
 
         {Datas.map((Data, i) => (
-        <div className='mt-6 mr-6 p-[.8rem] flex items-start bg-[#fff] hover:bg-[#C5DEFF] rounded-2xl w-3/5'
+        <div className='mt-6 mr-6 p-[.8rem] flex items-start bg-[#fff] hover:bg-[#C5DEFF] rounded-2xl w-3/5 cursor-pointer'
             onClick={() => toggle(i)}
             key={Data.id}
         >

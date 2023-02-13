@@ -13,31 +13,34 @@ import SwiftLogo from '../assets/icons/swift.svg';
 
 const HyreRight = () => {
   return (
-    <div className='relative flex px-[.6rem] md:px-[2rem] py-[3rem]'>
-      <div className='glass z-10 bg-[rgba(255,255,255,0.6)] backdrop-blur-md flex flex-col items-start justify-between rounded-3xl min-h-screen w-full'>
+    <div className='relative flex px-[.6rem] md:px-[2rem] py-[2rem]'>
+      <div className='glass z-10 bg-[rgba(255,255,255,0.6)] backdrop-blur-md flex flex-col items-start justify-between rounded-3xl w-full'>
         <div className='px-[8rem] pt-10 flex flex-col md:flex-row items-start justify-between w-full'>
           <div className='hyreRight py-[2rem] flex items-start flex-col'>
-            <h5 className='text-[#2A85FF] font-bold text-xs lg:text-sm uppercase'>Set up in minutes</h5>
-            <h1 className='text-[#23262F] text-xl lg:text-4xl font-bold mt-[.2em]'>hyre_Right</h1>
-            <p className='text-[#353945] font-normal text-xs lg:text-base mt-[.8em]'>The tech stack of your choice – <br />set up in minutes</p>
+            <h5 className='text-[#2A85FF] font-bold text-xs lg:text-base uppercase'>Set up in minutes</h5>
+            <h1 className='text-[#23262F] text-xl lg:text-5xl font-bold mt-[.2em]'>hyre_Right</h1>
+            <p className='text-[#353945] font-normal text-xs lg:text-lg mt-[.8em]'>The tech stack of your choice – <br />set up in minutes</p>
           </div>
+          <div className='flex pt-10'>
           <div>
             <DeveloperCard />
             <DeveloperCard />
             <DeveloperCard />
           </div>
+          <div>arrow</div>
+          </div>
         </div>
-        <div className=' px-8 pb-10 pt-6 flex items-center justify-between overflow-hidden w-full'>
-          <div className='m-1 p-1 md:p-2 rounded-full bg-white drop-shadow-xl'><img src={AngularLogo} alt='angular' /></div>
-          <div className='m-1 p-1 md:p-2 rounded-full bg-white drop-shadow-xl'><img src={ReactLogo} alt='react' /></div>
-          <div className='m-1 p-1 md:p-2 rounded-full bg-white drop-shadow-xl'><img src={KotlinLogo} alt='kotlin logo' /></div>
-          <div className='m-1 p-1 md:p-2 rounded-full bg-white drop-shadow-xl'><img src={SwiftLogo} alt='swift' /></div>
-          <div className='m-1 p-1 md:p-2 rounded-full bg-white drop-shadow-xl'><img src={FlutterLogo} alt='flutter' /></div>
-          <div className='m-1 p-1 md:p-2 rounded-full bg-white drop-shadow-xl'><img src={JavaLogo} alt='java' /></div>
-          <div className='m-1 p-1 md:p-2 rounded-full bg-white drop-shadow-xl'><img src={HtmlLogo} alt='html' /></div>
-          <div className='m-1 p-1 md:p-2 rounded-full bg-white drop-shadow-xl'><img src={SassLogo} alt='sass' /></div>
-          <div className='m-1 p-1 md:p-2 rounded-full bg-white drop-shadow-xl'><img src={PythonLogo} alt='python' /></div>
-          <div className='m-1 p-1 md:p-2 rounded-full bg-white drop-shadow-xl'><img src={PhpLogo} alt='php' /></div>
+        <div className=' px-11 pb-10 pt-6 flex items-center justify-between overflow-hidden w-full'>
+          <div className='p-1 md:p-2 rounded-full bg-white drop-shadow-xl'><img src={AngularLogo} alt='angular' /></div>
+          <div className='p-1 md:p-3 rounded-full bg-white drop-shadow-xl'><img src={FlutterLogo} alt='flutter' /></div>
+          <div className='p-1 md:p-2 rounded-full bg-white drop-shadow-xl'><img src={ReactLogo} alt='react' /></div>
+          <div className='p-2 md:p-3 rounded-full bg-white drop-shadow-xl'><img src={KotlinLogo} alt='kotlin logo' /></div>
+          <div className='p-1 md:p-2 rounded-full bg-white drop-shadow-xl'><img src={SwiftLogo} alt='swift' /></div>
+          <div className='p-1 md:p-2 rounded-full bg-white drop-shadow-xl'><img src={JavaLogo} alt='java' /></div>
+          <div className='p-1 md:p-3 rounded-full bg-white drop-shadow-xl'><img src={HtmlLogo} alt='html' /></div>
+          <div className='p-1 md:p-2 rounded-full bg-white drop-shadow-xl'><img src={SassLogo} alt='sass' /></div>
+          <div className='p-1 md:p-2 rounded-full bg-white drop-shadow-xl'><img src={PythonLogo} alt='python' /></div>
+          <div className='p-1 md:p-2 rounded-full bg-white drop-shadow-xl'><img src={PhpLogo} alt='php' /></div>
         </div>
       </div>
      <div className='circleAngular absolute bottom-0 w-[20em] h-[20em] md:w-[30em] md:h-[30em] rounded-full rotate-45 bg-gradient-to-t from-[#fca39f] via-[#debdf5] to-[#e0c1f3]'></div>
