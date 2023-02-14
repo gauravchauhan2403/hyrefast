@@ -4,13 +4,13 @@ const HyreTestimonial = () => {
   return (
     <div className='card bg-[#fff] flex items-start justify-between mt-[1rem] rounded-[74px] min-h-screen'>
       <div className='hyre_trust flex flex-col m-[4rem] md:px-[5rem] md:py-[3rem]'>
-        <h5 className='text-[#45B36B] font-semibold text-sm md:text-sm uppercase'>
+        <h5 className='text-[#45B36B] font-semibold text-sm md:text-base uppercase'>
           WHAT Clients Says
         </h5>
-        <h1 className='text-[#23262F] text-2xl lg:text-4xl font-bold mt-[.2em]'>
+        <h1 className='text-[#23262F] text-2xl lg:text-5xl font-bold mt-[.2em]'>
           hyre_Testimonials
         </h1>
-        <p className='text-[#23262F] font-sm md:text-lg my-[2rem] md:w-3/4 '>
+        <p className='text-[#23262F] font-sm md:text-lg my-[2rem] md:w-3/5 '>
           Rahul is one of the few creative designers who combine business
           knowledge, user experience design, and coding. These unique skill
           sets make him an extraordinary addition to our team. He helped us

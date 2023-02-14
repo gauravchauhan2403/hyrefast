@@ -18,25 +18,25 @@ const HyreTime = () => {
 
   return (
     <div className='bg-[#441949] md:flex items-start justify-between mx-[.6rem] md:mx-[2rem] my-[1rem] rounded-3xl min-h-screen'>
-      <div className='flex flex-col mx-[1rem] p-6 md:ml-[8rem] md:mt-[4rem] md:w-1/2'>
-        <h5 className='text-[#FF70B5] mt-8 font-semibold text-xs md:text-base'>
+      <div className='flex flex-col mx-[1rem] p-6 md:ml-[7rem] md:mt-[4rem] md:w-1/2'>
+        <h5 className='text-[#FF70B5] mt-8 font-semibold text-sm md:text-base'>
           Interview to offer, in 72 hours flat.
         </h5>
-        <h1 className='text-[#FEFFFF] text-xl lg:text-4xl font-bold mt-[.2em]'>
+        <h1 className='text-[#FEFFFF] text-2xl lg:text-5xl font-bold mt-[.2em]'>
           hyre_Time
         </h1>
 
         {Datas.map((Data, i) => (
-        <div className='mt-6 mr-6 p-[.8rem] flex items-start bg-[#fff] hover:bg-[#C5DEFF] rounded-2xl w-3/5 cursor-pointer'
+        <div className={`mt-6 mr-6 p-[.8rem] flex items-start  hover:bg-[#C5DEFF] ${display ===i ? 'bg-[#C5DEFF]':'bg-[#fff]'} rounded-2xl w-3/5 cursor-pointer`}
             onClick={() => toggle(i)}
             key={Data.id}
         >
-          <img src={Data.image} alt='right' className='w-6 h-6'></img>
-          <div className='flex flex-col flex-wrap px-[1rem]'>
-              <h4 className='font-semibold text-base'>{Data.heading}</h4>
-              <p className={`text-sm font-normal transition ease-linear delay-150 duration-300 ${display ===i ? 'block':'hidden'} overflow-hidden`}>
-                {Data.content}
-              </p>
+          <img src={Data.image} alt='right' className='w-7 h-7' />
+          <div className='flex flex-col flex-wrap px-[1.2rem]'>
+            <h4 className='font-semibold text-base'>{Data.heading}</h4>
+            <p className={`text-sm font-normal transition ease-linear delay-150 duration-300 ${display ===i ? 'block':'hidden'} overflow-hidden`}>
+              {Data.content}
+            </p>
           </div>
         </div>
         ))}

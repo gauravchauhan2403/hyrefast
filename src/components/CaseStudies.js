@@ -9,10 +9,10 @@ const CaseStudies = () => {
   return (
     <div className='bg-[#441949] flex flex-col items-start mx-[1rem] md:mx-[2rem] my-[2rem] rounded-3xl min-h-screen'>
       <div className='flex flex-col m-[2rem] md:mr-[3rem] md:ml-[6rem] md:mt-[4rem]'>
-        <h5 className='text-[#FF70B5] font-semibold text-xs md:text-sm uppercase'>
+        <h5 className='text-[#FF70B5] font-semibold text-xs md:text-base uppercase'>
           Set up in minutes
         </h5>
-        <h1 className='text-[#FEFFFF] text-xl lg:text-4xl font-bold mt-[.2em]'>
+        <h1 className='text-[#FEFFFF] text-xl lg:text-5xl font-bold mt-[.2em]'>
           Case studies
         </h1>
       </div>
