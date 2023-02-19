@@ -3,15 +3,15 @@ import ThreeUser from '../assets/icons/3User.svg';
 import AddUser from '../assets/icons/addUser.svg';
 import Document from '../assets/icons/Document.svg';
 import TimeCircle from '../assets/icons/timeCircle.svg';
-import Animation from './Animation';
-// import Animation from '../assets/animation/final_3.mp4';
+// import Animation from './Animation';
+import Animation2 from '../assets/animation/final_2.webm';
 
 const Hero = () => {
   return (
     <div>
-    <div className='wrapper bg-[#FFFFFF] flex items-start flex-col justify-between pl-[3rem] lg:pl-[11rem] w-[100%] lg:min-h-[100%] relative'>
+    <div className='wrapper bg-[#FFFFFF] flex items-start flex-col justify-between pl-[3rem] lg:pl-[11rem] w-[100%] md:min-h-[100%] relative'>
       {/* Left side */}
-      <div className='headings flex flex-col items-start justify-center lg:h-[100%] font-bold leading-none py-[1rem] lg:py-[4rem] text-[2rem] lg:text-[3rem]'>
+      <div className='headings flex flex-col items-start justify-center lg:h-[100%] font-bold leading-none py-[1rem] lg:pt-[4rem] text-[1rem] md:text-[2rem] lg:text-[2.6rem] xl:text-[3.4rem] 2xl:text-[4rem]'>
         <span>Hire Software</span>
         <span>Engineers of</span>
         <span className='text-[#2A85FF]'>Top Development</span>
@@ -37,9 +37,9 @@ const Hero = () => {
           </ul>
         </div>
       </div>
-      <div className='lg:absolute relative lg:w-[60%] sm:w-[100%] lg:z-50 lg:top-0 lg:right-0'>
-        <Animation />
-        {/* <video src={Animation} playsInline autoPlay loop muted type='video/mp4' /> */}
+      <div className='lg:absolute relative sm:w-[100%] md:w-[60%] lg:[65%] md:z-50 md:top-0 md:right-0'>
+        {/* <Animation /> */}
+        <video src={Animation2} playsInline autoPlay loop muted type='video/webm' />
       </div>
     </div>
     <img src={require('../assets/images/floor.jpg')}
