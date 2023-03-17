@@ -39,6 +39,7 @@ const Hero = () => {
     </div>
     <img src={require('../assets/images/floor.jpg')}
         alt="floor"
+        className="w-full object-cover"
     />
     </div>
   )
