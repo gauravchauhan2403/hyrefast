@@ -5,9 +5,9 @@ import Animation from './Animation';
 const Hero = () => {
   return (
     <div>
-    <div className='wrapper bg-[#FFFFFF] flex items-start flex-col justify-between pl-[3rem] lg:pl-[11rem] w-[100%] md:min-h-[100%] relative'>
+    <div className='wrapper bg-[#FFFFFF] flex items-start flex-col pl-[3rem] lg:pl-[11rem] w-[100%] md:min-h-[100%] relative'>
       {/* Left side */}
-      <div className='headings flex flex-col items-start justify-center lg:h-[100%] font-bold leading-none py-[1rem] lg:pt-[4rem] text-[1rem] md:text-[2rem] lg:text-[2.6rem] xl:text-[3.4rem] 2xl:text-[4rem]'>
+      <div className='headings flex flex-col items-start justify-center lg:h-[100%] font-bold leading-none ml-10 lg:pt-[4rem] text-[1rem] md:text-[2rem] lg:text-[2.6rem] xl:text-[3.4rem] 2xl:text-[4rem]'>
         <p><span className='text-[#2A85FF]'>Hyrefast </span>Engineers</p>
         <span>from Top Global</span>
         <span>Development</span>
@@ -32,7 +32,7 @@ const Hero = () => {
           </ul>
         </div>
       </div>
-      <div className='lg:absolute relative sm:w-[100%] md:w-[55%] lg:[60%] md:z-50 md:top-0 md:right-0'>
+      <div className='lg:absolute relative sm:w-[100%] md:w-[55%] lg:[65%] md:z-50 md:top-0 md:right-0'>
         <Animation />
         {/* <video src={Animation2} playsInline autoPlay loop muted type='video/webm' /> */}
       </div>
