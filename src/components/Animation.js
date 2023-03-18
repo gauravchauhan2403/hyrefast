@@ -15,7 +15,7 @@ const Animation = () => {
       }
     };
   return (
-      <Lottie options={defaultOptions} isClickToPauseDisabled={true} height={700} width={'auto'} />
+      <Lottie options={defaultOptions} isClickToPauseDisabled={true} height={650} width={'auto'} />
   )
 }
 
