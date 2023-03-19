@@ -38,7 +38,7 @@ const Hero = () => {
           </ul>
         </div>
       </div>
-      <div className='lg:absolute relative sm:w-[100%] md:w-[55%] lg:[65%] md:z-50 md:top-0 md:right-0'>
+      <div className='lg:absolute relative w-[100%] md:w-[55%] lg:[65%] md:z-50 md:top-0 md:right-0'>
         <Animation />
         {/* <video src={Animation2} playsInline autoPlay loop muted type='video/webm' /> */}
       </div>

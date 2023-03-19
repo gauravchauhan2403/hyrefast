@@ -27,13 +27,13 @@ const HyreSecure = () => {
   return (
     <div className='card bg-[#fff] flex flex-col items-start justify-between rounded-[64px] px-4 pt-[1rem] min-h-screen'>
       <div className='relative md:flex items-start justify-between mt-6 md:pb-[4rem] w-full'>
-        <div className='absolute top-9 left-10 p-[14rem] blur-2xl bg-[#A4A8FF] rounded-full'></div>
-        <div className='absolute bottom-0 left-24 p-[10rem] blur-2xl bg-[#FFA4E0] rounded-full'></div>
-        <div className='relative ml-[3rem] px-[4rem] md:mt-[2rem] w-3/5'>
+        <div className='-z-1 absolute top-9 left-10 p-[6rem] md:p-[14rem] blur-2xl bg-[#A4A8FF] rounded-full'></div>
+        <div className='-z-1 absolute md:bottom-0 left-24 p-[5rem] md:p-[10rem] blur-2xl bg-[#FFA4E0] rounded-full'></div>
+        <div className='relative ml-[3rem] px-[4rem] md:mt-[2rem] md:w-3/5'>
           <img src={Authentic} alt='stamp' className='absolute z-10 top-20 right-[15rem]' />
           <img src={Image} alt='buildings' />
         </div>
-        <div className='flex flex-col md:p-[1rem] mt-[2rem] w-2/5'>
+        <div className='flex flex-col md:p-[1rem] mt-[2rem] md:w-2/5'>
           <h5 className='text-[#45B36B] font-semibold text-xs md:text-base uppercase'>
             Your code, in your hands
           </h5>

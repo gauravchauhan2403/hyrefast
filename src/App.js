@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
+import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import HyreRight from './components/HyreRight';
 import HyreTime from './components/HyreTime';
@@ -14,7 +14,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App bg-[#f9f9f9]">
-      <Header />
+      <Navbar />
       <Hero />
       <HyreRight />
       <HyreTime />

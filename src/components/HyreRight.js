@@ -17,7 +17,7 @@ const HyreRight = () => {
   return (
     <div className='relative flex px-[.6rem] md:px-[2rem] py-[2rem]'>
       <div className='glass z-10 bg-[rgba(255,255,255,0.6)] backdrop-blur-md flex flex-col items-start justify-between rounded-3xl w-full'>
-        <div className='px-[8rem] pt-10 flex flex-col md:flex-row items-start justify-between w-full'>
+        <div className='px-[2rem] md:px-[8rem] pt-10 flex flex-col md:flex-row items-start justify-between w-full'>
           <div className='hyreRight py-[2rem] flex items-start flex-col'>
             <h5 className='text-[#2A85FF] font-bold text-sm lg:text-base uppercase'>Set up in minutes</h5>
             <h1 className='text-[#23262F] text-2xl lg:text-5xl font-bold mt-[.2em]'>hyre_Right</h1>
@@ -48,7 +48,7 @@ const HyreRight = () => {
           <div className='p-1 md:p-2 rounded-full bg-white drop-shadow-xl'><img src={PhpLogo} alt='php' /></div>
         </div>
       </div>
-     <div className='circleAngular absolute bottom-0 w-[30em] h-[30em] md:w-[40rem] md:h-[40rem] blur-xl rounded-full rotate-45 bg-gradient-to-t from-[#fa9a94] via-[#d6a9f7] to-[#ddb2f8]'></div>
+     <div className='circleAngular absolute bottom-0 w-[20rem] h-[20rem] md:w-[40rem] md:h-[40rem] blur-xl rounded-full rotate-45 bg-gradient-to-t from-[#fa9a94] via-[#d6a9f7] to-[#ddb2f8]'></div>
      <div className='bg-[#f9f9f9] w-3/4 h-[3rem] absolute bottom-0'></div>
     </div>
   )
